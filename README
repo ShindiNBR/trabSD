@@ -1,0 +1,13 @@
+Para Executar o programa, siga os passos abaixo:
+Criar um ambiente virtual python (venv) no diretório root do programa com o comando:
+    python -m venv <nome_venv>
+
+Após a criação, ative o venv:
+    Linux: source <nome_venv>/bin/activate
+    Windows: <nome_venv>\Scripts\activate
+
+Por fim, instalar as bibliotecas especificadas no requirements.txt:
+    pip install -r requirements.txt
+
+Agora é só executar o programa com o comando:
+    python main.py
