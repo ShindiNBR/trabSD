@@ -13,11 +13,12 @@ def tela_ajuda():
 
     texto = [
         "AJUDA",
-        "Use as setas ou WASD para mover o personagem .",
+        "Use as setas ou WASD para mover o personagem.",
         "Evite os vilões e colete todos os itens para ganhar pontos!",
-        "Utilize power-ups para conseguir derrotar os inimigos e ganhar pontos extra!"
+        "Utilize power-ups para conseguir derrotar os inimigos e ganhar pontos extra!",
         "Ao coletar todos os itens, você avança para a próxima fase.",
-        "Cuidado: se um inimigo tocar em você, perderá uma vida!",
+        "Durante a fase, itens adicionais podem aparecer para conceder mais pontos."
+        "Cuidado: se um inimigo tocar em você, perderá uma vida! E se perder 3 as vidas, o jogo termina.",
         "Pressione ESC para voltar ao menu."
     ]
 

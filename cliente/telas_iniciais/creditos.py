@@ -13,21 +13,19 @@ def tela_creditos():
 
     texto = [
         "CRÉDITOS",
-        "Pacman DOOM",
-        "jogo distribuído desenvolvido para o trabalho da disciplina de Sistemas Distribuídos.",
-        "''Será que já da pra entregar?'' - Gabriel Gomes",
-        "''Sei lá, tá meio ruim, o que vc acha?'' - Rodrigo Watanabe",
-        "''Estaria melhor se não fosse ruim...'' - Gabriel Gomes",
-        "''Verdade'' - Rodrigo Watanabe",
-        "''Entrega logo essa bosta'' - Vozes da nossa cabeça",
-        "''Esses cara tá de sacanagem comigo com esse diálogo nos créditos'' - Prof. Calvinson", 
-        "Integrantes do trabalho:"
+        "Integrantes do trabalho:",
         "   Rodrigo Kenji Olini Watanabe - RA:123630",
         "   Gabriel Oliveira Gomes - RA:125154",
         "Linguagem de programação utilizada:",
         "   Python",
         "Protocolo de comunicação utilizado:",
         "   RPC (Remote Procedure Call)",
+        "Bibliotecas utilizadas:",
+        "   Pygame para a interface gráfica e manipulação de eventos",
+        "   xmlrpc para comunicação cliente-servidor",
+        "''Ainda bem que ele não ta cobrando estética'' - Rodrigo",
+        "''Por quê?'' - Gabriel",
+        "''Porquê tá muito feio kkkkkk'' - Rodrigo",
         "Pressione ESC para voltar ao menu."
     ]
 

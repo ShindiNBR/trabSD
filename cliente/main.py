@@ -1,6 +1,6 @@
 from telas_iniciais.menu import menu_principal
 from telas_iniciais.ajuda import tela_ajuda
-# from telas_iniciais.sobre import tela_sobre
+from telas_iniciais.sobre import tela_sobre
 from telas_iniciais.creditos import tela_creditos
 #from jogo import tela_jogo 
 
@@ -12,10 +12,10 @@ def main():
         if escolha == "AJUDA":
             tela_ajuda()
 
-        # elif escolha == "SOBRE":
-        #     tela_sobre()
+        elif escolha == "SOBRE":
+            tela_sobre()
 
-        elif escolha == "CREDITOS":
+        elif escolha == "CREDITO":
             tela_creditos()
 
         # elif escolha == "JOGO":
