@@ -1,15 +1,13 @@
 import pygame
 import sys
+from config import LARGURA, ALTURA, BRANCO, PRETO
 
 def tela_ajuda():
     pygame.init()
-    LARGURA, ALTURA = 800, 600
     TELA = pygame.display.set_mode((LARGURA, ALTURA))
     pygame.display.set_caption("Ajuda")
 
-    FONTE = pygame.font.Font(None, 36)
-    BRANCO = (255, 255, 255)
-    PRETO = (0, 0, 0)
+    FONTE = pygame.font.Font(None, 26)
 
     texto = [
         "AJUDA",
@@ -17,7 +15,7 @@ def tela_ajuda():
         "Evite os vilões e colete todos os itens para ganhar pontos!",
         "Utilize power-ups para conseguir derrotar os inimigos e ganhar pontos extra!",
         "Ao coletar todos os itens, você avança para a próxima fase.",
-        "Durante a fase, itens adicionais podem aparecer para conceder mais pontos."
+        "Durante a fase, itens adicionais podem aparecer para conceder mais pontos.",
         "Cuidado: se um inimigo tocar em você, perderá uma vida! E se perder 3 as vidas, o jogo termina.",
         "Pressione ESC para voltar ao menu."
     ]

@@ -1,18 +1,14 @@
 import pygame
 import sys
+from config import LARGURA, ALTURA, TITULO, BRANCO, PRETO, AMARELO
 
 pygame.init()
 
-LARGURA, ALTURA = 800, 600
 TELA = pygame.display.set_mode((LARGURA, ALTURA))
-pygame.display.set_caption("Pacman DOOM")
+pygame.display.set_caption(TITULO)
 
 FONTE = pygame.font.Font(None, 60)
 FONTE_MENOR = pygame.font.Font(None, 40)
-
-BRANCO = (255, 255, 255)
-AMARELO = (255, 255, 0)
-PRETO = (0, 0, 0)
 
 opcoes = ["Iniciar Jogo", "Ajuda", "Sobre", "Crédito", "Sair"]
 selecionado = 0

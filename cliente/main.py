@@ -2,8 +2,7 @@ from telas_iniciais.menu import menu_principal
 from telas_iniciais.ajuda import tela_ajuda
 from telas_iniciais.sobre import tela_sobre
 from telas_iniciais.creditos import tela_creditos
-#from jogo import tela_jogo 
-
+# from jogo import tela_jogo 
 
 def main():
     while True:

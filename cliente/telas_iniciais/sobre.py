@@ -1,18 +1,14 @@
-# telas_iniciais/sobre.py
 import pygame
 import sys
+from config import LARGURA, ALTURA, BRANCO, PRETO, AMARELO
 
 def tela_sobre():
     pygame.init()
-    LARGURA, ALTURA = 800, 600
     TELA = pygame.display.set_mode((LARGURA, ALTURA))
     pygame.display.set_caption("Sobre")
 
     FONTE_TITULO = pygame.font.Font(None, 48)
-    FONTE = pygame.font.Font(None, 32)
-    BRANCO = (255, 255, 255)
-    PRETO = (0, 0, 0)
-    AMARELO = (255, 255, 0)
+    FONTE = pygame.font.Font(None, 26)
 
     texto = [
         "SOBRE O JOGO",
