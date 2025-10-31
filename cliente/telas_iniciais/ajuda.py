@@ -16,7 +16,8 @@ def tela_ajuda():
         "Utilize power-ups para conseguir derrotar os inimigos e ganhar pontos extra!",
         "Ao coletar todos os itens, você avança para a próxima fase.",
         "Durante a fase, itens adicionais podem aparecer para conceder mais pontos.",
-        "Cuidado: se um inimigo tocar em você, perderá uma vida! E se perder 3 as vidas, o jogo termina.",
+        "Cuidado: se um inimigo tocar em você, perderá uma vida! ",
+        "E se perder 3 as vidas, o jogo termina.",
         "Pressione ESC para voltar ao menu."
     ]
 
