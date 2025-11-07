@@ -31,8 +31,8 @@ def tela_creditos():
 
     scroll_y = 0  
     scroll_speed = 30  
-    espacamento_linha = 60 # Espaço entre as linhas
-    margem_topo = 100 # Onde o texto começa
+    espacamento_linha = 60
+    margem_topo = 100
 
     altura_total_texto = margem_topo + (len(texto) * espacamento_linha)
     
