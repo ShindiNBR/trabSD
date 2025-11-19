@@ -12,6 +12,7 @@ Por fim, instalar as bibliotecas especificadas no requirements.txt:
 Agora inicie o servidor
     python servidor/servidor.py
 
-E em outro terminal execute o programa com o comando:
+E em outro terminal, ative o venv e execute o programa com o comando:
     python cliente/main.py
+
 
